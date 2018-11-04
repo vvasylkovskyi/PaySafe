@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html ng-app="paySafeApp" lang="en" ng-controller="PaySafeController">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>PaySafe</title>
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="bower_components/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet"/>
+		<link href="bower_components/bootstrap-3.3.7-dist/css/bootstrap-theme.css" rel="stylesheet"/>	
+	</head>
+	<body>
+
+	<div class="container">
+	    <h2>
+	        Welcome to the PaySafe 
+	    </h2>
+	    <br/>
+	    <h3>Send money through a message with PaySafe</h3>
+	    <form class="form-inline">
+	        <label>Sender Number: </label> <input class="form-control input-sm" type="text" ng-model="senderNumber" />
+	        <label>Receiver Number: </label> <input class="form-control input-sm" type="text" ng-model="receiverNumber" />
+		    <label>Amount: </label> <input class="form-control input-sm" type="text" ng-model="amount" />
+	        <input class="btn btn-primary btn-sm" type="submit" ng-click="pay()" value="Submit" />
+	    </form>
+	</div>
+	</body>
+	<script src="bower_components/ajax/jquery.min.js"></script>
+	<script src="bower_components/ajax/jquery-ui.min.js"></script>
+	<script src="bower_components/angularComponents/angular.js"></script>
+	<script type="text/javascript" src="bower_components/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+	<script src="http://code.angularjs.org/angular-1.0.0rc3.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>	
+	
+	<script type="text/javascript" src="js/dashboardController.js"></script>
+	
+</html>
+ 
+
+ 
+ 
+ 

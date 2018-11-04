@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+#test {
+	color:blue;
+}
+.pena {
+	    width: 60%;
+    height: 460px;
+    left: 0px;
+    position: absolute;
+    top: 79px;
+}
+ul {
+ list-style-type: none;
+}
+.reserveTourInSintraTitle {
+	top: 25px;
+	position: relative;
+	color: grey;
+	left: -3%;
+}
+.search-booking-table {
+	padding: 4%;
+	position: relative;
+	top: 0%;
+	height: 100%;
+}
+.jipe-img {
+	width: 45%;
+	left: 0%;
+	position: absolute;
+	top: 0%;
+	z-index: 1;
+	height: 100%;
+}
+.bottomFooter {
+	position: absolute;
+	top: 100%;
+	height: 20%;
+	width: 100%;
+	background-color: #5d5d5d;
+	left: 0%;
+	text-align: right;
+}
+
+.search-booking-container {
+	position: relative;
+	background-color: white;
+	top: -550px;
+	left: 4%;
+	width: 38%;
+	height: 420px;
+	border-radius: 15px;
+	z-index: 2;
+}
+.search-booking-modal {
+	position: relative;
+	height: 75%;
+	top: 7%;
+	width: 100%;
+}
+.searchBtn {
+	width: 100%;
+	border-radius: 5px;
+	border: 2px solid #fefefe;
+	height: 39px;
+	margin-top: 52px;
+	color: white;
+	font-weight: bold;
+}
+.background-image {
+	width: 62%;
+	left: 38%;
+	position: relative;
+	top: 0%;
+	z-index: 1;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	overflow: hidden;
+	background-color: #f6eded;
+	left: 0%;
+
+}
+.navbar {
+	border-radius: 0px !important;
+	border: 0px !important;
+		min-height: 70px;
+		border-bottom: 2px solid #b2b5b7 !important;
+		height: 77px !important;
+		background-color: #fbfbfb;
+		position: fixed;
+		width: 100%;
+		top: 0px;
+		left: 0%;
+		z-index: 999;
+}
